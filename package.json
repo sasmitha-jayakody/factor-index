@@ -1,0 +1,14 @@
+{
+  "name": "sjfi-500-methodology",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generator for the SJFI 500 Quality-Value Index Ground Rules document.",
+  "main": "make_methodology.js",
+  "scripts": {
+    "build:methodology": "node make_methodology.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.5.1"
+  }
+}

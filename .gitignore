@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Node (only needed to regenerate the Ground Rules document)
+node_modules/
+package-lock.json
+
+# Large regenerable backtest artefact (~200 KB, 3,900 rows).
+# Everything else in outputs/ is committed so the repo is readable
+# without running anything.
+outputs/index_levels.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
